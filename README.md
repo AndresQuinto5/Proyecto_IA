@@ -2,14 +2,14 @@
 ## CC3045 - Semestre I - 2024
 
 ### Descripción
-Este proyecto final consiste en la implementación o profundización teórica de un tema relacionado con la Inteligencia Artificial. El objetivo es desarrollar un programa que resuelva un problema real y de interés, aplicando las técnicas y conocimientos adquiridos durante el curso.
+Este proyecto tiene como objetivo comparar la efectividad y métricas de diferentes algoritmos clasificadores aplicados a un conjunto de datos de estudiantes universitarios. El dataset utilizado, extraído de Kaggle, contiene información sobre las características de los estudiantes y la variable objetivo es determinar si el estudiante se graduó o desertó.
 
-### Especificaciones
-- Elegir un tema de interés relacionado con la Inteligencia Artificial, ya sea de los temas vistos en clase o cualquier otro tema relevante.
-- El tema elegido debe tener una aplicación real en la industria o en la academia, como clasificadores, comparaciones entre algoritmos, reconocimiento facial, análisis de datasets, etc.
-- Construir uno o varios programas que apliquen la teoría aprendida en clase respecto al tema elegido.
-- Corroborar el funcionamiento de la solución y documentar los resultados.
-- No se permitirán temas repetidos entre los grupos.
+### Objetivos
+- Realizar un análisis exploratorio de los datos para comprender su estructura y distribución.
+- Visualizar la relación entre las variables y la variable objetivo mediante gráficas.
+- Implementar y comparar diferentes algoritmos clasificadores, como Regresión Logística, Árboles de Decisión, Random Forest, entre otros.
+- Evaluar el rendimiento de cada algoritmo utilizando métricas como precisión, recall, F1-score y matriz de confusión.
+- Determinar el algoritmo clasificador que mejor se ajusta a los datos y proporciona los mejores resultados.
 
 ### Documentación
 Se deberá entregar un documento con la siguiente información:
@@ -33,6 +33,36 @@ Se realizará una presentación en clase donde se expondrá el proyecto. La pres
 ### Entrega en Canvas
 1. Link al repositorio de los integrantes del grupo.
    - Subir también el código y documento a Canvas por temas de Acreditación.
+
+### Metodología
+1. **Preprocesamiento de datos:**
+   - Realizar la limpieza y transformación de los datos según sea necesario.
+   - Manejar valores faltantes y outliers.
+   - Codificar variables categóricas.
+   - Normalizar o escalar las variables numéricas.
+
+2. **Análisis exploratorio de datos (EDA):**
+   - Visualizar la distribución de las variables mediante histogramas, gráficos de densidad, etc.
+   - Analizar la correlación entre las variables y la variable objetivo utilizando matrices de correlación y gráficos de dispersión.
+   - Identificar posibles patrones o relaciones interesantes en los datos.
+
+3. **Implementación de algoritmos clasificadores:**
+   - Dividir el dataset en conjuntos de entrenamiento y prueba.
+   - Implementar y entrenar diferentes algoritmos clasificadores, como Regresión Logística, Árboles de Decisión, Random Forest, entre otros.
+   - Ajustar los hiperparámetros de cada algoritmo para obtener el mejor rendimiento.
+
+4. **Evaluación y comparación de modelos:**
+   - Evaluar el rendimiento de cada algoritmo utilizando métricas como precisión, recall, F1-score y matriz de confusión.
+   - Comparar los resultados obtenidos por los diferentes algoritmos.
+   - Seleccionar el algoritmo que mejor se ajuste a los datos y proporcione los mejores resultados.
+
+5. **Conclusiones y recomendaciones:**
+   - Presentar las conclusiones del análisis y la comparación de los algoritmos clasificadores.
+   - Proporcionar recomendaciones sobre el algoritmo más adecuado para predecir la deserción o graduación de los estudiantes universitarios.
+
+### Recursos
+- Dataset de Kaggle: [Enlace al dataset utilizado]
+- Documentación de las bibliotecas y herramientas utilizadas.
 
 ### Evaluación
 1. [2 pts.] Aprobación del tema
