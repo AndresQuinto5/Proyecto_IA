@@ -74,6 +74,8 @@ Se realizará una presentación en clase donde se expondrá el proyecto. La pres
 7. [4 pts.] Calidad de solución
 Total: 20 pts.
 
+### VIDEO
+[LINK](https://youtu.be/Etg8tztDiag)
 
 ## Configuración del Entorno
 --
